@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Concepts]">
+  <test thread-count="5" name="Different class execute(failed)">
+    <classes>
+      <class name="testApi.Get_Api_Users">
+        <methods>
+          <include name="setUp"/>
+          <include name="test_User_with_header"/>
+        </methods>
+      </class> <!-- testApi.Get_Api_Users -->
+    </classes>
+  </test> <!-- Different class execute(failed) -->
+</suite> <!-- Failed suite [TestNG Concepts] -->

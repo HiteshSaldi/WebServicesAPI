@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG Concepts">
+
+
+<test name="Different class execute">
+<classes>
+
+<class name="testApi.Get_Api_Users"/>
+<class name="testApi.Post_Api_Users"/>
+
+</classes>
+</test>
+</suite>
